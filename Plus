@@ -110,19 +110,19 @@ if [[ "$resposta" = '1' ]]; then
     service ssh restart >/dev/null 2>&1
     echo -e "\n\033[1;36mVERIFICANDO... \033[1;37m 16983:16085\033[0m"
     rm $_Ink/list >/dev/null 2>&1
-    wget -P $_Ink https://sshsuper.000webhostapp.com/Install/list >/dev/null 2>&1
+    wget -P $_Ink https://raw.githubusercontent.com/jamesgomes2/Super/main/Install/list >/dev/null 2>&1
     verif_key
     sleep 3s
     echo "/bin/menu" >/bin/h && chmod +x /bin/h >/dev/null 2>&1
     rm versao* >/dev/null 2>&1
-    wget https://sshsuper.000webhostapp.com/Install/versao >/dev/null 2>&1
+    wget https://raw.githubusercontent.com/jamesgomes2/Super/main/Install/versao >/dev/null 2>&1
     >/dev/null 2>&1
     wget https://t.me/EhisOpeNer >/dev/null 2>&1
     >/dev/null 2>&1
     rm 2lHZ43 >/dev/null 2>&1
     cd /bin/ >/dev/null 2>&1
     rm v2raymanager >/dev/null 2>&1
-    wget https://sshsuper.000webhostapp.com/v2raymanager >/dev/null 2>&1
+    wget https://raw.githubusercontent.com/jamesgomes2/Super/main/v2raymanager >/dev/null 2>&1
     wget https://www.dropbox.com/s/iu9imqme0octssw/botteste.sh >/dev/null 2>&1
     chmod 777 v2raymanager >/dev/null 2>&1
     chmod 777 botteste.sh >/dev/null 2>&1
@@ -230,14 +230,14 @@ elif [[ "$resposta" = '2' ]]; then
     sleep 3s
     echo "/bin/menu" >/bin/h && chmod +x /bin/h >/dev/null 2>&1
     rm versao* >/dev/null 2>&1
-    wget https://sshsuper.000webhostapp.com/Install/versao >/dev/null 2>&1
+    wget https://raw.githubusercontent.com/jamesgomes2/Super/main/Install/versao >/dev/null 2>&1
     >/dev/null 2>&1
     wget https://t.me/EhisOpeNer >/dev/null 2>&1
     >/dev/null 2>&1
     rm 2lHZ43 >/dev/null 2>&1
     cd /bin/ >/dev/null 2>&1
     rm v2raymanager >/dev/null 2>&1
-    wget https://sshsuper.000webhostapp.com/Modulos/v2raymanager >/dev/null 2>&1
+    wget https://raw.githubusercontent.com/jamesgomes2/Super/main/Modulos/v2raymanager >/dev/null 2>&1
     wget https://www.dropbox.com/s/iu9imqme0octssw/botteste.sh >/dev/null 2>&1
     chmod 777 v2raymanager >/dev/null 2>&1
     chmod 777 botteste.sh >/dev/null 2>&1
