@@ -1,9 +1,9 @@
 # SSHPLUS
 
-apt update -y && apt upgrade -y && wget https://sshsuper.000webhostapp.com/Plus && chmod 777 Plus && ./Plus
+apt update -y && apt upgrade -y && wget https://raw.githubusercontent.com/jamesgomes2/Super/main/Plus && chmod 777 Plus && ./Plus
 
 
 #Acessa Root
 
-wget https://sshsuper.000webhostapp.com/senharoot.sh && chmod 777 senharoot.sh && ./senharoot.sh
+wget wget https://raw.githubusercontent.com/jamesgomes2/Super/main/senharoot.sh && chmod 777 senharoot.sh && ./senharoot.sh
 # SSHPLUS
